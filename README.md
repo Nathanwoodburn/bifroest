@@ -24,6 +24,7 @@ Bifröst (spoken as "Bee-frest"), is an advanced SSH server. It can be used as a
 4. [Kubernetes environments](#kubernetes-environments)
 5. [Remember me](#remember-me)
 6. [Automatic user provisioning](#automatic-user-provisioning)
+7. [Remote environments](#remote-environments)
 
 #### SSH protocol compliant
 
@@ -41,6 +42,10 @@ You can execute your users into individual Docker containers with custom images,
 #### Kubernetes environments
 
 Be directly inside a dedicated Pod inside your Kubernetes cluster and have access to all of its resources without extra port forwarding.
+
+#### Remote environments
+
+Connect users to remote SSH servers, allowing Bifröst to act as a secure proxy or jump host to other systems in your infrastructure.
 
 #### Remember me
 
